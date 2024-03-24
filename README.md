@@ -1,2 +1,2 @@
-# CC3S2-project-JuniorTeam-
-JuniorTeam repository.
+# Repositorio del curso CC3S2
+
