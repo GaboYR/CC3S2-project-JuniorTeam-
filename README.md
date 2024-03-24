@@ -1,2 +1,4 @@
 # Repositorio del curso CC3S2
-# Xd
+
+## Integrantes
+- Gabriel Yarleque Ramos (20194028H)
