@@ -50,3 +50,5 @@ no podremos retroceder
 
 - En scrum hay un product Owner que es el intermediario entre el equipo tecnico y el cliente, con esto se permite una
     comunicacion externa y una garantía de que se cumplen con los requisitos del cliente con cada sprint hecho
+
+Por lo tanto la metodoliga ideal sería SCRUM
