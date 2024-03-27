@@ -35,18 +35,18 @@ no podremos retroceder
 
 ***Scrum***
 
-- Este modelo es agil por lo tanto da igual si los requisitos están bien definidos o no, despues de todo este modelo se adapta a los
+1) Este modelo es agil por lo tanto da igual si los requisitos están bien definidos o no, despues de todo este modelo se adapta a los
    cambios
 
-- Scrum tiene naturaleza iterativa (sprint), es decir con scrum se puede rediseñar y mejorar en incrementos sucesivos el sistema
+2) Scrum tiene naturaleza iterativa (sprint), es decir con scrum se puede rediseñar y mejorar en incrementos sucesivos el sistema
 
-- Scrum es un buen canditado pues si hay un componente problemático,entonces se puede priorizar en ese problema en su mejora
+3) Scrum es un buen canditado pues si hay un componente problemático,entonces se puede priorizar en ese problema en su mejora
    en un siguiente sprint
 
-- En scrum hay coordinaciones diarias y/o semanal para el chequeo de sprints, estas reuniones se pueden hacer de manera virutal
+4) En scrum hay coordinaciones diarias y/o semanal para el chequeo de sprints, estas reuniones se pueden hacer de manera virutal
     por lo tanto se adecua a esta caracteristica
 
-- En scrum hay un product Owner que es el intermediario entre el equipo tecnico y el cliente, con esto se permite una
+5) En scrum hay un product Owner que es el intermediario entre el equipo tecnico y el cliente, con esto se permite una
     comunicacion externa y una garantía de que se cumplen con los requisitos del cliente con cada sprint hecho
 
 Por lo tanto la metodoliga ideal sería SCRUM
