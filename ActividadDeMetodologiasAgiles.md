@@ -16,6 +16,7 @@
 - `Comunicación externa`: gestión de las expectativas del cliente
 
 **2. SELECCION DE MODELOS**:
+Modelos Candidatos
 - Modelo Waterfall
 - Scrum
 
