@@ -23,7 +23,7 @@ hora,oponente, movimientos realizados, username del oponente).
 
 4) Juego Online: debe permitir al usuario poder jugar con otros usarios conectados (o con computadora)
 
-**HISTORIA DE USUARIO**
+**HISTORIA DE USUARIO**\\
 ***HU01 - Grabación del juego***
 
 ***Descripción:***
