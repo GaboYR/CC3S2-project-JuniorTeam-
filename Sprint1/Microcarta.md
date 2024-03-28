@@ -1,6 +1,10 @@
 ## MICROCARTA DEL PROYECTO
 
+### Nombre del Proyecto: Damas Online
 
+***Visión:***  
+
+Nuestra visión es crear un juego online sobre damas brindando una experiencia entretenida, cómoda y competitiva entre usuarios de diferentes edades 
 
 ***Misión:***
 1) Proporcionar una experiencia de juego divertida, la cual sea interesante para cualquier persona ajena a la tecnología.
@@ -9,6 +13,13 @@
 
 
 **Elevator pitch:*** Debido a la alta demanda de juegos con mejores gráficos, se esta dejando de lado el mantenimiento y el desarrollo de juegos que realmente eran valorados en tiempos anteriores, tales como ajedrez, damas, ludo, etc. Entonces nuestra propuesta se centra en desarrollar un juego que cualquier persona ajena a los videojuegos nuevos pueda entretenerse y pasarla de manera divertida ¿Te imaginas jugando con tu papá, abuelo o tio un juego que antes solía jugar en un tablero, pero ahora lo pueden realizar mediante una computadora? Además, estamos implementando nuevas funcionalidades como guardar partidas, jugar online, jugar contra la maquina y mantenimiento constante para mejorar tu experiencia de usuario y tener en cuenta los comentarios para mejores continuas ¡ Te invitamos a jugar nuestro juego Damas Online !
+
+***Valor de negocio:*** Proporcionar una app accesible y cómoda para aficionados de damas inglesas ofreciendo la posibilidad de competir con otros jugadores en línea. 
+
+***Clientes:*** Tencent (empresa que va a comprar el software) 
+
+***Usuarios:*** Cualquier persona interesada en el juego de damas inglesas. 
+
 ***Métricas:***  
 1) Número de usuarios registrados 
 2) Numero de partidas registradas 
