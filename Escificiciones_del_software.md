@@ -26,10 +26,10 @@ hora,oponente, movimientos realizados, username del oponente).
 **HISTORIA DE USUARIO**  
 ***HU01 - Grabación del juego***
 
-***Descripción:***
+***Descripción:***  
 Como usuario del sistema quiero poder acceder a un historial de mis partidas anteriores para poder toda la informacipón de esa partida.
 
-***Criterios de Aceptacion:***
+***Criterios de Aceptacion:***  
 *El historial de partidas debe estar ordenado cronológicamente,las recientes primero y los mas antiguos al final
 
 *Debe haber una opcion para visualizar mas detelles de una partida en particuar, como la fecha,hora, movimientos realizados y nombre del username
