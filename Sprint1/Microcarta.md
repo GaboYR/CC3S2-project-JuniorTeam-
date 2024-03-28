@@ -1,5 +1,11 @@
 ## MICROCARTA DEL PROYECTO
 
+
+
+***Misión:***
+1) Proporcionar una experiencia de juego divertida, la cual sea interesante para cualquier persona ajena a la tecnología.
+2) Fomentar la interacción social
+3) Priorizar la alta disponibilidad 
 ***Métricas:***  
 1) Número de usuarios registrados 
 2) Numero de partidas registradas 
