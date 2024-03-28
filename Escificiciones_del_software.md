@@ -1,6 +1,6 @@
 ## ESPECIFICAIONES DEL SOFTWARE
 
-**OBJETIVO:**
+**OBJETIVO:**  
 Se requiere crear un software que simule el juego de damas americanas implementado una aplicación web.
 
 **INFORMACIÓN DE CADA USUARIO:**
@@ -23,7 +23,7 @@ hora,oponente, movimientos realizados, username del oponente).
 
 4) Juego Online: debe permitir al usuario poder jugar con otros usarios conectados (o con computadora)
 
-**HISTORIA DE USUARIO**\\
+**HISTORIA DE USUARIO**  
 ***HU01 - Grabación del juego***
 
 ***Descripción:***
