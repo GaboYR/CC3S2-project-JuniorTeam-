@@ -1,0 +1,4 @@
+servlet/RegistroServlet.class
+com/juniorgroup/damasonline/JakartaRestConfiguration.class
+com/juniorgroup/damasonline/resources/JakartaEE10Resource.class
+servlet/LoginServlet.class
