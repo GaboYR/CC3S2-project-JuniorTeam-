@@ -8,8 +8,18 @@ ALCANZE:
 *Priorizar la alta disponibilidad
 
 OBJETIVOS:  
+*Lograr 500 usuarios activos y una ganancia de S/. 1000 mediante donaciones en 1 año
+*Lanzar la versión beta en 1 mes
+*Poder incluir el aplicativo en plataformas de videojuegos como Steam, Epicgames, etc
 
 
 
-PARTES INTERESADAS:  Probando cambios
+PARTES INTERESADAS:
+*Equipo de Desarrollo del Grupo JuniorTeam
+*Clase de Desarrollo de Software
+*Profesionales del juego Damas
+*Usuarios finales potenciales
+
+
+
 
