@@ -5,4 +5,3 @@ Repositorio relacionado al proyecto del curso `CC3S2`.
 - YARLEQUE RAMOS GABRIEL GERARDO (20194028H)
 - SILVA ROJAS JUAN SEBASTIAN
 
-probando
