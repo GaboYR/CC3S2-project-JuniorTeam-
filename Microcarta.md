@@ -9,10 +9,8 @@ ALCANCE:
   
 OBJETIVOS:  
 - Lograr 500 usuarios activos y una calificación de 3.5/5 en 1 año.
-- Lanzar la versión beta en 1 mes
-- Poder incluir el aplicativo en plataformas de videojuegos como Steam, Epicgames, etc
-
-
+- Lanzar la versión beta en 1 mes.
+- Poder incluir el aplicativo en plataformas de videojuegos como Steam, Epicgames, etc.
 
 PARTES INTERESADAS:
 - Equipo de Desarrollo del Grupo JuniorTeam
