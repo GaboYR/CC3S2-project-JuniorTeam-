@@ -2,9 +2,10 @@
 
 | ID | Nombre de la historia de usuario | Descripción de la historia de usuario |
 |:--:|:---------------------------------:|:-------------------------------------:|
-| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de DamasOnline.  
-Necesito poder acceder a mi cuenta con un nombre de usuario y una contraseña válida.| 
-| 02 | Registro cuenta de usuario        | Como usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.|      
+| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión 
+para poder entrar al juego de DamasOnline.  
+| 02 | Registro cuenta de usuario        | Como usuario, necesito crear una cuenta 
+para que con esa misma pueda iniciar sesión.|      
    
                              
 
