@@ -2,12 +2,12 @@
 
 | ID | Nombre de la  historia de usuario | Descripción de la historia de usuario |
 |:--:|:---------------------------------:|:-------------------------------------:|
-| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión 
-para poder entrar al juego de  DamasOnline.| 
-| 02 | Registro cuenta de usuario        | Como usuario, necesito crear una cuenta 
-para que con esa misma pueda iniciar sesión.|      
-| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar 
-sesión en cualquier momento para mantener mi cuenta segura para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.|
+| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  DamasOnline.| 
+| 02 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.|      
+| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.|
+| 04 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.|
+| 05 | Juego multijuador                 |
+
                              
 
 ## CRITERIOS DE ACEPTACION(AC)
