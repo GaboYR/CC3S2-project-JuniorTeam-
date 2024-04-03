@@ -1,14 +1,14 @@
 ## HISTORIAS DE USUARIOS
 
-| ID | Nombre de la  historia de usuario | Descripción de la historia de usuario |
-|:--:|:---------------------------------:|:-------------------------------------:|
-| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  DamasOnline.| 
-| 02 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.|      
-| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.|
-| 04 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.|
-| 05 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.|
-| 06 | Juego con bot                     | Como usuario, necesito poder jugar contra la "computadora" para practicar y mejorar mis habilidades. |
-| 07 | Juego Local                       | Como jugador, necesito la capacidad de jugar al juego de damas contra otro usuario en la misma ubicación física para una partida multijugador local.|
+| ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad
+|:--:|:---------------------------------:|:-------------------------------------:|:----------------------:|
+| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  DamasOnline.| ALTO
+| 02 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO      
+| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO
+| 04 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.| BAJO
+| 05 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.| MEDIO
+| 06 | Juego con bot                     | Como usuario, necesito poder jugar contra la "computadora" para practicar y mejorar mis habilidades. | MEDIO
+| 07 | Juego Local                       | Como jugador, necesito la capacidad de jugar al juego de damas contra otro usuario en la misma ubicación física para una partida multijugador local.| ALTO
 
                              
 
