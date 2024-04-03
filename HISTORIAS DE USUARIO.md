@@ -3,8 +3,8 @@
 | ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad              | Esfuerzo Estimado | Esfuerzo real | Estado | Desarrollador |
 |:--:|:---------------------------------:|:-------------------------------------:|:----------------------:|:-----------------:|:-------------:|:------:|:-------------:|
 | 1 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  PlayDamas.| ALTO | 3 horas | 5 horas | En curso | Juan Silva |
-| 2 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO | 3 horas | 5 horas | En curso | Juan Silva |       
-| 3 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas | 5 horas | En curso | Dieso Quispe |
+| 2 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO | 3 horas | 5 horas | En curso | Dieso Quispe |       
+| 3 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas | 5 horas | En curso | Juan Silva  |
 | 4 | Visualización del tablero         | Como jugador, necesito poder ver el tablero del juego de damas en una interfaz gráfica para comprender mejor la situación del juego y tomar decisiones estratégicas.| ALTO | 2 horas | 2.5 hora | En curso | Grabriel Yarlequé |
 | 5 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.| BAJO | 5 horas | 8 horas | Pendiente | No definido |
 | 6 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.| MEDIO | 48 horas | 72 horas | Pendiente | No definido |
@@ -17,9 +17,10 @@
 
 | ID y nombre de la lista de usuario | AC  ID | Descripcion del criterio de aceptacion | Estado | Desarrollador |
 |:----------------------------------:|:------:|:--------------------------------------:|:------------------------------------------:|:-------------:|
-| 1 Iniciar sesión             | 1.1 | Inicio de sesión exitoso con credenciales válidas. Dado un username y una contraseña asociada, cuando inicie sesión con estas credenciales entonces el sistema debería permitirme acceder al juego de PlayDamas. |                                             |               |
-| 1 Iniciar sesión             | 1.2 |                                            |               |
-| 1 Iniciar sesión             | 1.3 |                                            |               |
+| 1 Iniciar sesión             | 1.1 | Inicio de sesión exitoso con credenciales válidas. Dado un username y una contraseña asociada, cuando inicie sesión con estas credenciales entonces el sistema debería permitirme acceder al juego de PlayDamas. | En progreso | Juan Silva |
+| 1 Iniciar sesión             | 1.2 | Error del inicio de sesión con username inexistente. Dado un username inexistente cuando intento iniciar sesión con este username Entonces el sistema no debería permitirme acceder al juego y mostrar un mensaje de error.| En progreso | Juan Silva |
+| 1 Iniciar sesión             | 1.3 | Fallo del inicio de sesión con una constraseña inválida. Dado un username con una constraseña no asociada a este mismo cuando intento iniciar sesión con estas credenciales Entonces el sistema no debería permitirme acceder al juego y debería mostrar un mensaje de error indicando "Constrañseña erronea".| En progreso | Juan Silva |
+| 1 Iniciar sesión             | 1.4 | Protección contra intentos de inicio de sesión maliciosos Dado unas credenciales inválidas Cuando se realizan múltiples intentos de inicio de sesión con esas mismas Entonces el sistema debería bloquear temporalmente el acceso después de un número determinado de intentos fallidos.Y debería mostrar un mensaje de "Exedió el número de intentos".| En progreso | Juan Silva |
 
 
 
