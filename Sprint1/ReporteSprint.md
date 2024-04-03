@@ -1,7 +1,7 @@
 # REPORTE DEL PROYECTO
 ## MICROCARTA DEL PROYECTO
 
-### Nombre del Proyecto: Damas Online
+### Nombre del Proyecto: PLAYDAMAS
 
 ***Visión:***  
 
