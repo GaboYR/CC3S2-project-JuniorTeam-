@@ -1,4 +1,4 @@
-TITULO: DAMAS ONLINE
+TITULO: PLAY DAMAS
 
 VISIÓN:  Nuestra visión es crear un juego online sobre damas brindando una experiencia entretenida, cómoda y competitiva entre usuarios de diferentes edades
 
