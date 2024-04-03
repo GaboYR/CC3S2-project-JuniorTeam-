@@ -1,15 +1,15 @@
 ## HISTORIAS DE USUARIOS
 
-| ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad              | Esfuerzo Estimado
-|:--:|:---------------------------------:|:-------------------------------------:|:----------------------:|:------------------|
-| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  DamasOnline.| ALTO | 3 horas |
-| 02 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO | 3 horas      
-| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas |
-| 04 | Visualización del tablero         | Como jugador, necesito poder ver el tablero del juego de damas en una interfaz gráfica para comprender mejor la situación del juego y tomar decisiones estratégicas.| ALTO | 2 horas |
-| 05 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.| BAJO | 5 horas |
-| 06 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.| MEDIO | 48 horas |
-| 07 | Juego con bot                     | Como usuario, necesito poder jugar contra la "computadora" para practicar y mejorar mis habilidades. | MEDIO | 48 horas |
-| 08 | Juego Local                       | Como jugador, necesito la capacidad de jugar al juego de damas contra otro usuario en la misma ubicación física para una partida multijugador local.| ALTO | 24 horas |
+| ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad              | Esfuerzo Estimado | Esfuerzo real | Estado
+|:--:|:---------------------------------:|:-------------------------------------:|:----------------------:|:-----------------:|:-------------:|:------:|
+| 01 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  DamasOnline.| ALTO | 3 horas | 5 horas | En curso
+| 02 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO | 3 horas | 5 horas | En curso      
+| 03 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas | 5 horas | En curso
+| 04 | Visualización del tablero         | Como jugador, necesito poder ver el tablero del juego de damas en una interfaz gráfica para comprender mejor la situación del juego y tomar decisiones estratégicas.| ALTO | 2 horas | 2.5 hora | En curso |
+| 05 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.| BAJO | 5 horas | 8 horas | Pendiente |
+| 06 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.| MEDIO | 48 horas | 72 horas | Pendiente |
+| 07 | Juego con bot                     | Como usuario, necesito poder jugar contra la "computadora" para practicar y mejorar mis habilidades. | MEDIO | 48 horas | 72 horas | Pendiente |
+| 08 | Juego Local                       | Como jugador, necesito la capacidad de jugar al juego de damas contra otro usuario en la misma ubicación física para una partida multijugador local.| ALTO | 24 horas | 48 horas | Pendiente |
 
                              
 
