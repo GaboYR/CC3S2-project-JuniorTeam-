@@ -5,7 +5,7 @@
 | 1 | Iniciar sesión                    | Como usuario, necesito iniciar sesión para poder entrar al juego de  PlayDamas.| ALTO | 3 horas | 5 horas | En curso | Juan Silva |
 | 2 | Registro cuenta de usuario        | Como nuevo usuario, necesito crear una cuenta para que con esa misma pueda iniciar sesión.| ALTO | 3 horas | 5 horas | En curso | Dieso Quispe |       
 | 3 | Cierre de sesión                  | Como usuario, necesito poder cerrar sesión para evitar accesos no autorizados si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas | 5 horas | En curso | Juan Silva  |
-| 4 | Visualización del tablero         | Como jugador, necesito poder ver el tablero del juego de damas en una interfaz gráfica para comprender mejor la situación del juego y tomar decisiones estratégicas.| ALTO | 2 horas | 2.5 hora | En curso | Grabriel Yarlequé |
+| 4 | Visualización del tablero         | Como jugador, necesito poder ver el tablero del juego de damas en una interfaz gráfica para comprender mejor la situación del juego y tomar decisiones estratégicas.| ALTO | 2 horas | 2.5 hora | En curso | Gabriel Yarlequé |
 | 5 | Grabacion del juego               | Como usuario, necesito, grabar la información de las partidas para poder revisarlas cuando desee.| BAJO | 5 horas | 8 horas | Pendiente | No definido |
 | 6 | Juego multijuador                 | Como usuario, necesito poder jugar contra otros usuarios para disfrutar la experiencia multijugador.| MEDIO | 48 horas | 72 horas | Pendiente | No definido |
 | 7 | Juego con bot                     | Como usuario, necesito poder jugar contra la "computadora" para practicar y mejorar mis habilidades. | MEDIO | 48 horas | 72 horas | Pendiente | No definido |
@@ -27,14 +27,15 @@
 | 2 Registro cuenta de usuario | 2.4 | Prevención de creación de cuentas con información maliciosa. Dado un username no válido malicioso, una contraseña válida y una dirección de correo electrónico válida Cuando intento crear una cuenta con estos datos Entonces el sistema debería rechazar la creación de la cuenta.| En progreso | Diego Quispe |
 | 3 Cierre de sesión | 3.1 | Cierre de sesión exitoso Dado una cuenta abierta Cuando selecciono la opción de cerrar sesión Entonces el sistema debería cerrar mi sesión actual y redirigirme a la página de inicio de sesión. | En progreso | Juan Silva |
 | 3 Cierre de sesión | 3.2 | No acceso después del cierre de sesión. Dado que he cerrado sesión en mi cuenta Cuando intento acceder a páginas restringidas que requieren inicio de sesión Entonces el sistema no debería permitirme acceder a esas páginas. Y debería redirigirme a la página de inicio de sesión con un mensaje de "Debes inciar sesión primero".| En progreso | Juan Silva |
-| 4 Visualización del tablero  |    | | |                                    
+| 4 Visualización del tablero  |  4.1  | Inicializacion de un tablero de damas con las fichas en sus respectivas posiciones. Dada una nueva partida, se ubican las piezas en las posiciones por defecto. Entonces, se podra comezar una partida  | En progreso | Gabriel Yarleque
+| 4 Visualización del tablero  |  4.2  | Visualizacion de la accion de click al momento de seleccionar una ficha. Dada una partida, al presionar sobre una pieza, podremos ver que se selecciona esta ficha.Entonces, podremos mover la pieza(a futuro)  | En progreso | Gabriel Yarleque
 | 5 Grabación del Juego        |    | | |
 | 6 Juego Multijudaor          |    | | |
 | 7 Juego con bot              |    | | |
 | 8 Juego Local                |    | | |
 
 ## TAREAS DE IMPLEMENTACION
-Resumen del codigo de produccin.
+Resumen del codigo de produccion.
 
 | ID y nombre de la lista de usuario | AC  ID | Nombre(s) de clase | Nombre(s) del metodo | Desarrollador | Estado | Notas(op cional) |
 |:----------------------------------:|:------:|:------------------:|:--------------------:|:-------------:|--------|------------------|
