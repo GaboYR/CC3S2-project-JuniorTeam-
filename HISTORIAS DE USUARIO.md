@@ -17,8 +17,7 @@
 
 | ID y nombre de la lista de usuario | AC  ID | Descripcion del criterio de aceptacion | Estado | Desarrollador |
 |:----------------------------------:|:------:|:--------------------------------------:|:------------------------------------------:|:-------------:|
-| 1 Iniciar sesión             | 1.1 | Inicio de sesión exitoso con credenciales válidas. Dado un username y una contraseña asociada, cuando inicie sesión con estas credenciales entonces el sistema debería permitirme acceder al juego de PlayDamas. |
-Y mostrar un mensaje de que he iniciado sesión con éxito.                                             |               |
+| 1 Iniciar sesión             | 1.1 | Inicio de sesión exitoso con credenciales válidas. Dado un username y una contraseña asociada, cuando inicie sesión con estas credenciales entonces el sistema debería permitirme acceder al juego de PlayDamas. |                                             |               |
 | 1 Iniciar sesión             | 1.2 |                                            |               |
 | 1 Iniciar sesión             | 1.3 |                                            |               |
 
