@@ -21,17 +21,18 @@
 | 1 Iniciar sesión             | 1.2 | Error del inicio de sesión con username inexistente. Dado un username inexistente cuando intento iniciar sesión con este username Entonces el sistema no debería permitirme acceder al juego y mostrar un mensaje de error.| En progreso | Juan Silva |
 | 1 Iniciar sesión             | 1.3 | Fallo del inicio de sesión con una constraseña inválida. Dado un username con una constraseña no asociada a este mismo cuando intento iniciar sesión con estas credenciales Entonces el sistema no debería permitirme acceder al juego y debería mostrar un mensaje de error indicando "Constrañseña erronea".| En progreso | Juan Silva |
 | 1 Iniciar sesión             | 1.4 | Protección contra intentos de inicio de sesión maliciosos Dado unas credenciales inválidas Cuando se realizan múltiples intentos de inicio de sesión con esas mismas Entonces el sistema debería bloquear temporalmente el acceso después de un número determinado de intentos fallidos.Y debería mostrar un mensaje de "Exedió el número de intentos".| En progreso | Juan Silva |
+| 2 Registro cuenta de usuario | 2.1 | Creación exitosa de una username válida. Dado un username inexistente Cuando creo una cuenta con este username Y una contraseña válida que coincida con la contraseña confirmada Y una dirección de correo electrónico Entonces el sistema debería crear una nueva cuenta. Y mostrar un mensaje de "Registro exitoso".| En progreso | Diego Quispe |
+| 2 Registro cuenta de usuario | 2.2 | Creación de una cuenta fallida con un username existente. Dado un username que ya existe, cuando creo una cuenta con este username Y una contraseña válida que coincida con la contraseña confirmada Y una dirección de correo electrónica valida Entonces el sistema no deberían crear una nueva cuenta Y debería mostrar un mensaje de error de "el username ya existe"| En progreso | Diego Quispe |
+| 2 Registro cuenta de usuario | 2.3 | Creación de una cuenta fallida con una contraseña no válida. Dado un username válido Cuando un usuario crea una cuenta con este username Y una contraseña no válida Y la misma contraseña confirmada Y una dirección de correo electrónico no válida Entonces no se crea la nueva cuenta. Y el sistema debería mostrar mensajes de error diciendo "credenciales invalidas"| En progreso | Diego Quispe |
+| 2 Registro cuenta de usuario | 2.4 | Prevención de creación de cuentas con información maliciosa. Dado un username no válido malicioso, una contraseña válida y una dirección de correo electrónico válida Cuando intento crear una cuenta con estos datos Entonces el sistema debería rechazar la creación de la cuenta.| En progreso | Diego Quispe |
+| 3 Cierre de sesión | 3.1 | Cierre de sesión exitoso Dado una cuenta abierta Cuando selecciono la opción de cerrar sesión Entonces el sistema debería cerrar mi sesión actual y redirigirme a la página de inicio de sesión. | En progreso | Juan Silva |
+| 3 Cierre de sesión | 3.2 | No acceso después del cierre de sesión. Dado que he cerrado sesión en mi cuenta Cuando intento acceder a páginas restringidas que requieren inicio de sesión Entonces el sistema no debería permitirme acceder a esas páginas. Y debería redirigirme a la página de inicio de sesión con un mensaje de "Debes inciar sesión primero".| En progreso | Juan Silva |
 
 
 
 
 
-
-
-
-| 2 Registro cuenta de usuario |    |                                        |                                            |               |
-| 3 Cierre de sesión           |    |                                        |                                            |               |
-| 4 Visualización del tablero  |    |                                        |                                            |               |
+| 4 Visualización del tablero  |    |                                        
 | 5 Grabación del Juego        |    |
 | 6 Juego Multijudaor          |    |
 | 7 Juego con bot              |    |
