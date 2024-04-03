@@ -27,16 +27,11 @@
 | 2 Registro cuenta de usuario | 2.4 | Prevención de creación de cuentas con información maliciosa. Dado un username no válido malicioso, una contraseña válida y una dirección de correo electrónico válida Cuando intento crear una cuenta con estos datos Entonces el sistema debería rechazar la creación de la cuenta.| En progreso | Diego Quispe |
 | 3 Cierre de sesión | 3.1 | Cierre de sesión exitoso Dado una cuenta abierta Cuando selecciono la opción de cerrar sesión Entonces el sistema debería cerrar mi sesión actual y redirigirme a la página de inicio de sesión. | En progreso | Juan Silva |
 | 3 Cierre de sesión | 3.2 | No acceso después del cierre de sesión. Dado que he cerrado sesión en mi cuenta Cuando intento acceder a páginas restringidas que requieren inicio de sesión Entonces el sistema no debería permitirme acceder a esas páginas. Y debería redirigirme a la página de inicio de sesión con un mensaje de "Debes inciar sesión primero".| En progreso | Juan Silva |
-
-
-
-
-
-| 4 Visualización del tablero  |    |                                        
-| 5 Grabación del Juego        |    |
-| 6 Juego Multijudaor          |    |
-| 7 Juego con bot              |    |
-| 8 Juego Local                |    |
+| 4 Visualización del tablero  |    | | |                                    
+| 5 Grabación del Juego        |    | | |
+| 6 Juego Multijudaor          |    | | |
+| 7 Juego con bot              |    | | |
+| 8 Juego Local                |    | | |
 
 ## TAREAS DE IMPLEMENTACION
 Resumen del codigo de produccin.
