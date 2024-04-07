@@ -1,5 +1,6 @@
 /home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/controller/RegisterServlet.java
 /home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/model/DBConnection.java
+/home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/controller/LockedUserManager.java
 /home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/controller/LoginServlet.java
 /home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/model/UserModel.java
 /home/juan/UNI/DESARROLLO SOFTWARE/PROYECTO/JuniorTeam-CC3S2/DamasOnline/src/main/java/com/juniorgroup/damasonline/JakartaRestConfiguration.java
