@@ -18,6 +18,6 @@ PARTES INTERESADAS:
 - Profesionales del juego Damas
 - Usuarios finales potenciales
 
-
+*Link al reporte Nro1: [Reporte](https://github.com/GaboYR/JuniorTeam-CC3S2/blob/main/REPORTE%20SPRINT%2001.md)*
 
 
