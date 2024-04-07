@@ -1,6 +1,5 @@
 package controller;
 
-import model.DBConnection;
 
 import java.io.IOException;
 import java.sql.*;

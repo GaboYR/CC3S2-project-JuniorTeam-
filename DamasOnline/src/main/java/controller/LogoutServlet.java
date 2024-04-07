@@ -1,4 +1,3 @@
-
 package controller;
 
 import java.io.IOException;
@@ -12,33 +11,17 @@ import jakarta.servlet.http.HttpSession;
 @WebServlet(name = "LogoutServlet", urlPatterns = {"/LogoutServlet"})
 public class LogoutServlet extends HttpServlet {
 
-   
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-    }
-
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-    }
-
-  
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Invalidar la sesión actual
-        HttpSession session = request.getSession(false);
-        if (session != null) {
-            session.invalidate();
-        }
+        
+        //Removiendo el atributo del username (atributo colocado en el LoginServlet)
+        HttpSession session = request.getSession();
+        session.removeAttribute("username"); //Username sera null luego removerlo 
+        
+        
         // Redirigir al usuario a la página de inicio de sesión
         response.sendRedirect("login.jsp");
     }
-
-   
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-
+  
 }
