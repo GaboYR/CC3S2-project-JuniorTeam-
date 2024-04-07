@@ -1,4 +1,11 @@
-## HISTORIAS DE USUARIOS
+# REPORTE NRO 1
+## 1. Informe del proyecto
+
+Presentacion de la microcarta : [Microcarta](https://github.com/GaboYR/JuniorTeam-CC3S2/blob/main/Microcarta.md)
+
+## I. Descripcion del proyecto
+
+## II. Historias de usuarios
 
 | ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad              | Esfuerzo Estimado | Esfuerzo real | Estado | Desarrollador |
 |:--:|:---------------------------------:|:-------------------------------------:|:----------------------:|:-----------------:|:-------------:|:------:|:-------------:|
@@ -13,7 +20,7 @@
 
                              
 
-## CRITERIOS DE ACEPTACION(AC)
+## III. Criterios de aceptacion(AC)
 
 | ID y nombre de la lista de usuario | AC  ID | Descripcion del criterio de aceptacion | Estado | Desarrollador |
 |:----------------------------------:|:------:|:--------------------------------------:|:------------------------------------------:|:-------------:|
@@ -34,7 +41,7 @@
 | 7 Juego con bot              |    | | |
 | 8 Juego Local                |    | | |
 
-## TAREAS DE IMPLEMENTACION
+## IV. Tareas de implementacion
 Resumen del codigo de produccion.
 
 | ID y nombre de la lista de usuario | AC  ID | Nombre(s) de clase | Nombre(s) del metodo | Desarrollador | Estado | Notas(op cional) |
@@ -71,7 +78,7 @@ Resumen de otras pruebas automatizadas o manuales (que no corresponden a los cri
 |        |                   |                    |                                       |                                        |        |               |
 |        |                   |                    |                                       |                                        |        |               |
 
-## ACTA DE REUNION
+## V. Acta de reuniones
 
 | Fecha | Tiempo y duracion | Lugar | Participante | Proposito de la reunion | Elementos de accion especificos |
 |:-----:|:-----------------:|:-----:|:------------:|:-----------------------:|---------------------------------|
@@ -79,3 +86,17 @@ Resumen de otras pruebas automatizadas o manuales (que no corresponden a los cri
 |       |                   |       |              |                         |                                 |
 |       |                   |       |              |                         |                                 |
 |       |                   |       |              |                         |                                 |
+
+## VI. Tabla de calificaciones de amigos
+
+| Calificador\Calificado | Diego Quispe | Sebastian Silva | Gabriel Yarleque |
+|------------------------|--------------|-----------------|------------------|
+| Diego Quispe           |              |                 |                  |
+| Sebastian Silva        |              |                 |                  |
+| Gabriel Yarleque       |              |                 |                  |
+
+## 2. Demostracion
+## a.
+## b.
+## c.
+
