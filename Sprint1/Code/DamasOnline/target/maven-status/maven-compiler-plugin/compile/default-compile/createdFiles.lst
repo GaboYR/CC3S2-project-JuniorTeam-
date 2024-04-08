@@ -1,0 +1,7 @@
+model/DBConnection.class
+controller/LoginServlet.class
+controller/RegisterServlet.class
+com/juniorgroup/damasonline/JakartaRestConfiguration.class
+com/juniorgroup/damasonline/resources/JakartaEE10Resource.class
+controller/LogoutServlet.class
+model/UserModel.class
