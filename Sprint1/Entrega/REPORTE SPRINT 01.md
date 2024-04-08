@@ -1,7 +1,7 @@
 # REPORTE NRO 1
 ## 1. Informe del proyecto
 ## I. Descripcion del proyecto
-Presentacion de la microcarta : [Microcarta Grupo 7](https://github.com/GaboYR/JuniorTeam-CC3S2/blob/main/Microcarta.md)
+Presentacion de la microcarta : [Microcarta Grupo 7](https://github.com/GaboYR/JuniorTeam-CC3S2/blob/main/Sprint1/Entrega/Microcarta.md)
 ## II. Historias de usuarios
 
 | ID | Nombre de la  historia de usuario | Descripción de la historia de usuario | Prioridad              | Esfuerzo Estimado | Esfuerzo real | Estado | Desarrollador |
