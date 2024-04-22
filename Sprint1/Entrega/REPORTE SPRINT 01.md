@@ -71,7 +71,7 @@ Resumen de otras pruebas automatizadas o manuales (que no corresponden a los cri
 |   31/03/24    |  30 minutos      | Remoto(meet)    |  JuniorTeam| Acordar las partes             | Realizar un analilis del proyecto para acordar otra reunion                                    |
 |  1/04/24     |      40 minutos             | Remoto(meet)      | JuniorTeam | Ver dificultades del proyecto            |  Acordar las partes y el entorno de trabajo                       |     
 |  6/07/24     |      60 minutos             |   Remoto(meet)    |    JuniorTeam          |   Verificar el login                     |    Integrar la base de datos y testing                             |
-|  7/04/24     |     90 minutos              |  Remoto(meet)     |  JuniorTeam            |  Ver avance del tablero                       |           Continuar con el tablero                      |
+
 
 ## VI. Tabla de calificaciones de amigos
 
