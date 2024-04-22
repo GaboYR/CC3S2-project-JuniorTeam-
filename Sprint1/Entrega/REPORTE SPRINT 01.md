@@ -9,11 +9,6 @@ Presentacion de la microcarta : [Microcarta Grupo 7](https://github.com/GaboYR/J
 | 1 | Registro cuenta de usuario        | Como `nuevo usuario`, necesito `crear una cuenta` para que con esa misma `pueda iniciar sesión`.| ALTO | 3 horas | 5 horas | Completado | Dieso Quispe |       
 | 2 | Iniciar sesión                    | Como `usuario`, necesito `iniciar sesión` para poder `entrar al juego` de  PlayDamas.| ALTO | 3 horas | 5 horas | Completado | Juan Silva |
 | 3 | Cierre de sesión                  | Como `usuario`, necesito poder `cerrar sesión` para `evitar accesos no autorizados` si dejo mi sesión abierta accidentalmente.| ALTO | 3 horas | 5 horas | Completado | Juan Silva|
-| 4 | Visualización del tablero         | Como `jugador`, necesito poder `ver el tablero` del juego de damas en una interfaz gráfica para `comenzar el juego`.| ALTO | 2 horas | 2.5 hora | En curso | Gabriel Yarlequé |
-| 5 | Grabacion del juego               | Como `usuario`, necesito, `grabar la información` de las partidas para poder `retroalimentarme con esta informacion` .| BAJO | 5 horas | 8 horas | Pendiente | No definido |
-| 6 | Juego multijugador                 | Como `usuario`, necesito poder `jugar contra otros usuarios` para `disfrutar la experiencia multijugador`.| MEDIO | 48 horas | 72 horas | Pendiente | No definido |
-| 7 | Juego con bot                     | Como `usuario`, necesito poder `jugar contra la "computadora"` para `practicar y mejorar mis habilidades`. | MEDIO | 48 horas | 72 horas | Pendiente | No definido |
-| 8 | Juego Local                       | Como `jugador`, necesito  `jugar contra otro usuario en la misma ubicación física` para conseguir una mejor experiencia en una `partida multijugador local`.| ALTO | 24 horas | 48 horas | Pendiente | No definido |
 
                              
 
@@ -30,13 +25,7 @@ Presentacion de la microcarta : [Microcarta Grupo 7](https://github.com/GaboYR/J
 | 2 Registro cuenta de usuario | 2.3 | **Creacion de una cuenta `fallida` debido a una incorrecta confirmacion de contraseña**.<br> **Dado** un *username* válido <br>**Cuando** un usuario crea una cuenta con este *username*, <br>**y** una contraseña; el sistema pide confirmar la contraseña,<br> **y** se ingresa una contraseña diferente, <br>**entonces** no crea la nueva cuenta debido a la no validacion de contraseña. <br>**Y** el sistema debería mostrar mensajes de error diciendo *"la contraseñas no coinciden"*| Completado | Diego Quispe |
 | 3 Cierre de sesión | 3.1 | **Cierre de sesión exitoso al tener una cuenta abierta**. <br>**Cuando** selecciono la opción de cerrar sesión <br>**Entonces** el sistema debería cerrar mi sesión actual <br>**y** redirigirme a la página de inicio de sesión. | Completado | Juan Silva |
 | 3 Cierre de sesión | 3.2 | **No acceso después del cierre de sesión.**<br> **Dado** que he cerrado sesión en mi cuenta <br>**Cuando** intento acceder a páginas restringidas que requieren inicio de sesión **Entonces** el sistema no debería permitirme acceder a esas páginas. Y debería redirigirme a la página de inicio de sesión con un mensaje de "Debes inciar sesión primero".| Completado | Juan Silva |
-| 4 Visualización del tablero  |  4.1  | **Inicializacion de un tablero de damas con las fichas en sus respectivas posiciones**.<br> **Dada** una nueva partida, se ubican las piezas en las posiciones por defecto. <br>**Entonces**, se podra comezar una partida  | En progreso | Gabriel Yarleque
-| 4 Visualización del tablero  |  4.2  | **Visualizacion de la accion de click al momento de seleccionar una ficha**.<br> **Dada** una partida, al presionar sobre una pieza, podremos ver que se selecciona esta ficha.<br>**Entonces**, podremos mover la pieza(a futuro)  | En progreso | Gabriel Yarleque
-| 5 Grabación del Juego        |  5.1  | **Opcion de grabacion de partida en la aplicacion**.<br> **Cuando** se inicia una partida, <br>**entonces** el sistema debe permitirme grabar la partida hasta el momento que el usuario decida.| Por hacer | Gabriel Yarleque
-| 5 Grabación del Juego        |  5.2  | **Opcion de descarga de video en la aplicacion**. <br>**Cuando** hay una grabacion en curso, y el usuario pausa la grabacion,<br> **entonces** debe haber una carpeta para el usuario llamada *RecordRoundUser*  donde se almacenen las grabaciones.| Por hacer | Gabriel Yarleque
-| 6 Juego Multijugador          | 6.1 | **Opcion de jugar contra otra persona online** <br> **Cuando** te registras,<br>**Entonces** debe aparecer un menu con la opcion de juego online| Por hacer | Gabriel Yarleque 
-| 7 Juego con bot              |  7.1  |**Opcion de jugar contra la maquina** <br> **Cuando** te registras,<br>**Entonces** debe aparecer un menu con la opcion de juego contra maquina | Por hacer| No definido
-| 8 Juego Local                |  8.1  | **Opcion de jugar contra otra persona en una misma maquina** <br> **Cuando** te registras,<br>**Entonces** debe aparecer un menu con la opcion de modo local| Por hacer | No definido
+
 
 ## IV. Tareas de implementacion
 Resumen del codigo de produccion.
