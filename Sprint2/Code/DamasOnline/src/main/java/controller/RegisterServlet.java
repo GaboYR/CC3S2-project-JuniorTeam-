@@ -1,6 +1,5 @@
 package controller;
 
-import   model.DBConnection;
 
 import java.io.IOException;
 import java.sql.*;
@@ -10,8 +9,9 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import model.UserModel;
 
-@WebServlet(name = "RegistroServlet", urlPatterns = {"/RegistroServlet"})
+@WebServlet(name = "RegisterServlet", urlPatterns = {"/RegisterServlet"})
 public class RegisterServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -21,44 +21,37 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    String username = request.getParameter("username");
-    String email = request.getParameter("email");
-    String password = request.getParameter("password");
+        String username = request.getParameter("username");
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
+        String confirmPassword = request.getParameter("confirm_password");
 
-    try (Connection con = DBConnection.getConnection()) {
-        // Verificar si el correo electrónico ya está registrado
-        PreparedStatement checkEmailStmt = con.prepareStatement("SELECT * FROM users WHERE email = ?");
-        checkEmailStmt.setString(1, email);
-        ResultSet emailResultSet = checkEmailStmt.executeQuery();
-
-        if (emailResultSet.next()) {
-            // El correo electrónico ya existe en la base de datos
-            response.sendRedirect("registro.jsp?error=email_exist");
-        } else {
-            // Verificar si el username ya está registrado
-            PreparedStatement checkUsernameStmt = con.prepareStatement("SELECT * FROM users WHERE username = ?");
-            checkUsernameStmt.setString(1, username);
-            ResultSet usernameResultSet = checkUsernameStmt.executeQuery();
-
-            if (usernameResultSet.next()) {
-                // El nombre de usuario ya existe en la base de datos
-                response.sendRedirect("registro.jsp?error=username_exist");
-            } else {
-                // El nombre de usuario no existe, se puede registrar el usuario
-                PreparedStatement insertStmt = con.prepareStatement("INSERT INTO users (username, email, password) "
-                        + "VALUES (?, ?, ?)");
-                insertStmt.setString(1, username);
-                insertStmt.setString(2, email);
-                insertStmt.setString(3, password);
-                insertStmt.executeUpdate();
-                response.sendRedirect("login.jsp");
+        try {
+            if (!password.equals(confirmPassword)) {
+                // Las contraseñas no coinciden
+                response.sendRedirect("error.jsp?error=password_mismatch");
+                return;
             }
+
+            if (UserModel.userExists(username)) {
+                // El nombre de usuario ya está en uso
+                response.sendRedirect("error.jsp?error=username_exist");
+                return;
+            }
+
+            // Intentar registrar el nuevo usuario
+            if (UserModel.registerNewUser(username, password, email)) {
+                // Registro exitoso, redirigir a la página de inicio de sesión
+                response.sendRedirect("login.jsp");
+            } else {
+                // Hubo un problema al registrar el usuario
+                response.sendRedirect("error.jsp");
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            // Manejar cualquier excepción que ocurra
+            e.printStackTrace();
+            response.sendRedirect("error.jsp"); // Redirigir a una página de error
         }
-    } catch (ClassNotFoundException | SQLException e) {
-        // Manejar cualquier excepción que ocurra
-        e.printStackTrace();
-        response.sendRedirect("error.jsp"); // Redirigir a una página de error
     }
-}
 
 }
