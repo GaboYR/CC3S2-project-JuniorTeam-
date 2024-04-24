@@ -1,0 +1,113 @@
+:root {
+    --tamanio-casillero: 75px;
+    --tamanio-ficha: 67.5px;
+    --estilo-borde: 1px solid rgb(73, 73, 73);
+    --color-casillero-a: white;
+    --color-casillero-b: rgb(190,190,190);
+    --color-ficha-a: #292929;
+    --color-ficha-b: white;
+    --color-borde-ficha-a: #525252;
+    --color-borde-ficha-b: rgb(184, 184, 184);
+    --color-casillero-pintado: #1c796a;
+}
+
+body{
+    background-color: #383838;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.info-turno{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(211, 211, 211);
+  padding: 5px;
+  width: 602px;
+  border-radius: 10px;
+}
+
+.tablero {
+  margin: 0 auto;
+  border: var(--estilo-borde);
+}
+
+.fila{
+  display: flex;
+}
+
+.fila:nth-child(2n+1) .casillero:nth-child(2n+1){
+  background-color: var(--color-casillero-a);
+}
+
+.fila:nth-child(2n+1) .casillero:nth-child(2n+2){
+  background-color: var(--color-casillero-b);
+}
+
+.fila:nth-child(2n+2) .casillero:nth-child(2n+1){
+  background-color: var(--color-casillero-b);
+}
+
+.fila:nth-child(2n+2) .casillero:nth-child(2n+2){
+  background-color: var(--color-casillero-a);
+}
+
+.casillero{
+  width: var(--tamanio-casillero);
+  height: var(--tamanio-casillero);
+  border: var(--estilo-borde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.casillero.pintado{
+  cursor: pointer;
+}
+
+.casillero.pintado::after{
+  content: "";
+  background-color: var(--color-casillero-pintado);
+  height: 100%;
+  width: 100%;
+  opacity: 70%;
+}
+
+.ficha{
+  box-sizing: border-box;
+  width: var(--tamanio-ficha);
+  height: var(--tamanio-ficha);
+  border-radius: 50%;
+  border: 8px double;
+}
+
+.ficha-reina{
+  border: 18px double;
+}
+
+.ficha-oscura {
+  background-color: var(--color-ficha-a);
+  border-color: var(--color-borde-ficha-a);
+}
+
+.ficha-clara {
+  background-color: var(--color-ficha-b);
+  border-color: var(--color-borde-ficha-b);
+}
+
+.info-ganador-contenedor{
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #d6c3a4ee;
+  /*backdrop-filter: blur(8px);*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
