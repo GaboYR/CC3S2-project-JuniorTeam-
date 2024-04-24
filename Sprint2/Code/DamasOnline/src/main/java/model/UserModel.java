@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class UserModel {
 
-    // Método para verificar si el usuario y contraseña son válidos
+    // Método para verificar si el usuario y contraseña son válidos para el login
     public static boolean isValidUser(String username, String password) throws SQLException, ClassNotFoundException {
         String query = "SELECT * FROM users WHERE username=? AND password=?";
         try (Connection con = DBConnection.getConnection(); PreparedStatement ps = con.prepareStatement(query)) {
@@ -25,11 +25,17 @@ public class UserModel {
         try (Connection con = DBConnection.getConnection(); PreparedStatement ps = con.prepareStatement(query)) {
             ps.setString(1, username);
             try (ResultSet rs = ps.executeQuery()) {
-                return rs.next();
+                return rs.next(); //Verdadero si existe, falso si no existe usuario
             }
         }
     }
 
+    //Método para verificar si la constraseña es igual a la contraseña confirmada
+    public static boolean areSamePassword(String password, String confirmPassword){
+        return password.equals(confirmPassword);
+    }
+    
+    
     //Método para registrar nuevo usuario
     public static boolean registerNewUser(String username, String password, String email) throws SQLException, ClassNotFoundException {
         String query = "INSERT INTO users (username, password, email) VALUES (?, ?, ?)";
@@ -41,4 +47,7 @@ public class UserModel {
             return rowsAffected > 0; // Devuelve verdadero si se registró correctamente, si es mayor a cero indica que hubo al menos una actualización
         }
     }
+    
+    
+    
 }

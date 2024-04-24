@@ -27,14 +27,12 @@ public class RegisterServlet extends HttpServlet {
         String confirmPassword = request.getParameter("confirm_password");
 
         try {
-            if (!password.equals(confirmPassword)) {
-                // Las contraseñas no coinciden
+            if (!UserModel.areSamePassword(password, confirmPassword)) {// Las contraseñas no coinciden
                 response.sendRedirect("error.jsp?error=password_mismatch");
                 return;
             }
 
-            if (UserModel.userExists(username)) {
-                // El nombre de usuario ya está en uso
+            if (UserModel.userExists(username)) { // El nombre de usuario ya está en uso
                 response.sendRedirect("error.jsp?error=username_exist");
                 return;
             }

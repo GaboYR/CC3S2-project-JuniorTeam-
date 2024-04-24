@@ -21,15 +21,27 @@
                 
                 case "empty":
         %>        
-                    <p>You have not entered any credentials. Please try again later.</p>
+                    <p>You have not entered any credentials. Please try again.</p>
         <%
                 break;
                 
                 case "invalid":
         %>        
-                    <p>Incorrect credentials. Please try again later.</p>
+                    <p>Incorrect credentials. Please try again.</p>
         <%
-                break;   
+                break;
+                
+                case "password_mismatch":
+        %>  
+                    <p>There was an error confirming the password, the passwords do not match. Please try again</p>
+        <%            
+                break;
+             
+                case "username_exist":
+        %> 
+                    <p>You have entered a username that already exists Please try again</p>
+        <%
+                break;
             }
         %>          
 
@@ -37,4 +49,3 @@
     </div>
 </body>
 </html>
-
